@@ -1,6 +1,27 @@
+# Python
 venv/
+.venv/
 __pycache__/
 *.pyc
+
+# Jupyter notebooks
+*.ipynb
 .ipynb_checkpoints/
-.DS_Store
+
+# Machine learning models
+*.joblib
+
+# Datasets
 *.csv
+
+# Secrets
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials.json
+service-account.json
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
