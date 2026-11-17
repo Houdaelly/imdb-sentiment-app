@@ -346,17 +346,7 @@ if predict:
 
         <div class="bar"><div class="fill" style="width:{pos_p*100:.1f}%"></div></div>
         <div class="legend"><span>Negative</span><span>Positive · {pos_p:.1%}</span></div>
-
-        <div class="stats">
-            <div class="stat"><b>{len(review.split())}</b><span>Words</span></div>
-            <div class="stat"><b>{len(review)}</b><span>Characters</span></div>
-            <div class="stat"><b>{len(cleaned.split())}</b><span>Kept after cleaning</span></div>
-        </div>
         """)
-
-        with st.expander("Show cleaned text"):
-            st.write(cleaned)
-
 
 # ---------- Footer ----------
 render("""
